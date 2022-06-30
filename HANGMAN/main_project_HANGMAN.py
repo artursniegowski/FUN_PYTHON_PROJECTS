@@ -43,8 +43,8 @@ while gameOn:
     STATUS = 0
     # choosing a random word to start with
     wordToGuess = choice(WORDS).lower()
-    # lifes 
-    lifes = len(HANGMANPICS) - 1
+    # lives 
+    lives = len(HANGMANPICS) - 1
     # for history of guesses 
     history = []
     os.system('cls') #os.system('clear')
@@ -52,7 +52,7 @@ while gameOn:
     print(INTRO)
 
 
-    while STATUS <= lifes: 
+    while STATUS <= lives: 
 
         wordGuessed = obscureWord(wordToGuess,history)
         if '_' in wordGuessed:
@@ -81,10 +81,10 @@ while gameOn:
             STATUS += 1
             print("You guessed {}, that's not in the word. You lose a life.".format(quessedLetter))
             
-        if STATUS <= lifes:
+        if STATUS <= lives:
             print(HANGMANPICS[STATUS]+'\n')
 
-        if STATUS == lifes:
+        if STATUS == lives:
             print("GAME OVER !!!")
             print("You have died !!!")
             print("GAME OVER !!!")
