@@ -21,15 +21,7 @@ def obscureWord (wordToGuess: str, guessedLetters: list[str]) -> list[str] :
     replece the amoun of characters in the word with undescores
     and if the letter is alredy guessed than the letter
     """
-    obscuredW = []
-    for character in wordToGuess:
-        if character in guessedLetters:
-            obscuredW.append(character)
-        else: 
-            obscuredW.append('_')
-
-    return obscuredW
-
+    return [character if character in guessedLetters else '_'  for character in wordToGuess]
 
 # ============================================
 # GAME ON
