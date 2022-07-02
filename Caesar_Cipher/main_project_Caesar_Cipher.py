@@ -4,8 +4,48 @@ from main_project_ASCI_art import Intro
 # starting option prompt
 start_message = "Type 'encode' to encrypt, type 'decode' to decrypt:\n"
 
+# cipher helper function for the main cipherResult
+def cipherHelper (message : str, listLetters : list[str], shift : int, option : str = 'decode') -> str : 
+    """
+    Helper function for cipherResult,
+    - message - str to be ENCRYPTED or DECRYPTED
+    - listLetters - list of string , posible letters
+    - shift - int  by how many psotions should the ext be shifted in the algorithm
+    - option - 'decode' or 'encode' for DECRYPTING , ENCRYPTING respectively
+    """
+    cipherResult = ''
 
-# encrytpting / decrypting - caeser cipher
+    # depending on decode or encode we change the direction of shit
+    if option == 'decode':
+        shiftAdjuster = 1
+    elif option == 'encode':
+        shiftAdjuster = -1
+    else:
+        raise Exception("Option {} is not valid !!".format(option))
+    
+    # adjusting direction of our shift
+    shift *= shiftAdjuster
+
+    for character in message:
+        # and the cipher will also deal with white spaces
+        if character.upper() in listLetters:
+            # to make the algorithm case sensitive
+            # For lowercase letters 
+            if character == character.lower():
+                index = listLetters.index(character.upper())
+                new_index = (index - shift) % len(listLetters)
+                cipherResult += listLetters[new_index].lower()
+            # For capital letters
+            else: 
+                index = listLetters.index(character)
+                new_index = (index - shift) % len(listLetters)
+                cipherResult += listLetters[new_index]
+        else:
+            cipherResult += character
+
+    return cipherResult
+
+# encrytpting / decrypting - Caeser Cipher
 def cipherResult(message: str, shift : int = 0, option : str = 'encode') -> str :
     """
     This function is used to either encode or decode the caeser cipher.
@@ -25,41 +65,11 @@ def cipherResult(message: str, shift : int = 0, option : str = 'encode') -> str 
 
     # encrypting
     if option == 'decode':
-        for character in message:
-            # and the cipher will also deal with white spaces
-            if character.upper() in listLetters:
-                # to make the algorithm case sensitive
-                # For lowercase letters 
-                if character == character.lower():
-                    index = listLetters.index(character.upper())
-                    new_index = (index - shift) % len(listLetters)
-                    cipherResult += listLetters[new_index].lower()
-                # For capital letters
-                else: 
-                    index = listLetters.index(character)
-                    new_index = (index - shift) % len(listLetters)
-                    cipherResult += listLetters[new_index]
-            else:
-                cipherResult += character
+        cipherResult = cipherHelper(message,listLetters,shift,option)
 
     # decrypting
     elif option == 'encode':
-        for character in message:
-            # and the cipher will also deal with white spaces
-            if character.upper() in listLetters:
-                # to make the algorithm case sensitive
-                # For lowercase letters 
-                if character == character.lower():
-                    index = listLetters.index(character.upper())
-                    new_index = (index + shift) % len(listLetters)
-                    cipherResult += listLetters[new_index].lower()
-                # For capital letters
-                else: 
-                    index = listLetters.index(character)
-                    new_index = (index + shift) % len(listLetters)
-                    cipherResult += listLetters[new_index]
-            else:
-                cipherResult += character
+        cipherResult = cipherHelper(message,listLetters,shift,option)
 
     else:
         print("!! Wrong option choice !!")
