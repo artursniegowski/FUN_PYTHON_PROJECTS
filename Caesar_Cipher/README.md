@@ -11,15 +11,15 @@ It was developed using Python 3.10.5.
 In order to run the program you have to run the file main_project_Caesar_Cipher.py
 
 -----
+### ENCRYPTING
+example :  
+option : encode  
+message : hello Coders  
+shift : 9  
+THIS WILL RESULT IN : qnuux Lxmnab  
 
-example :
-option : encode
-message : hello Coders
-shift : 9
-THIS WILL RESULT IN : qnuux Lxmnab
-
-
-option : decode
-message : qnuux Lxmnab
-shift : 9
-THIS WILL RESULT IN : hello Coders
+### DECRYPTING
+option : decode  
+message : qnuux Lxmnab  
+shift : 9  
+THIS WILL RESULT IN : hello Coders  
