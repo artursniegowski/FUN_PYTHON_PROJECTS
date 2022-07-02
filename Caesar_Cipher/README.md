@@ -1,7 +1,7 @@
 # Caesar Cipher
 A Caesar cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, A would be replaced by D, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence
 
-https://github.com/artursniegowski/FUN_PYTHON_PROJECTS/tree/master/Caesar_Cipher/Caesar_cipher_left_shift_of_3.jpg
+[screen shot](https://github.com/artursniegowski/FUN_PYTHON_PROJECTS/tree/master/Caesar_Cipher/Caesar_cipher_left_shift_of_3.jpg)
 
 The program encrypts and decrypts the given text according to the Caesar Cipher. 
 
