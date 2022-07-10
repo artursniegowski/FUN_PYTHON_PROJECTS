@@ -16,4 +16,4 @@ The user is asked about the name of the pokemon and after entering it the progra
 
 # Banking_APP
 The program will track the balance of the given account based on the user choices,
-and all the transactions will be logged into a txt file. It's a program to simulate basic banking transactions
+and all the transactions will be logged into a txt file. It's a program to simulate basic banking transactions like depositing or withdrawing money.
