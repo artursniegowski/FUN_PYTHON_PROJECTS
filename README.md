@@ -17,3 +17,15 @@ The user is asked about the name of the pokemon and after entering it the progra
 # Banking_APP
 The program will track the balance of the given account based on the user choices,
 and all the transactions will be logged into a txt file. It's a program to simulate basic banking transactions like depositing or withdrawing money.
+  
+# Blackjack
+Blackjack is the most widely played casino banking game in the world. 
+It uses decks of 52 cards. It's also known as Twenty-One. In the game, 
+the players compete only against the dealer. The aim is to get a sum of all cards 
+totaling as close as possible to 21 (including). With the combination of an ace and 
+another 10 value card as a blackjack.
+This is a simplified version of the popular game Blackjack, written in Python. 
+The game keeps track of the probability of cards based on the decks played 
+and cards removed from them. The base scenario is with 8 decks of cards and 
+after playing 2 decks of cards, all decks will get reshuffled, in order to 
+reset the probabilities.  
