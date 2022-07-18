@@ -20,6 +20,10 @@ reset the probabilities.
 # Caesar Cipher
 A Caesar cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, A would be replaced by D, E would become H, and so on. The method is named after Julius Caesar, who used it in his private correspondence. The program encrypts and decrypts the given text according to the Caesar Cipher. 
 
+# Coffee_machine_simulation
+
+It's a simple digital version of a coffee machine (based on OOP principles), simulating the option of buying one of three available coffees: espresso, latte, or cappuccino. It keeps track of the coffee machine's resources and gives a prompt accordingly if it is lacking any of them. The user can check the remaining resources with the command 'report' and shuts the machine down for maintenance with the command 'off'. The machine also keeps track of the money made from the coffee sold (accepted coins: penny (1 cent), nickel (5 cents), dime (10 cents), quarter (25 cents)). It calculates the inserted coins and gives back change if there is any.
+
 # Guess_The_Number
 Guess the secret number in the range 1-100 (including endpoints).
 If your guess is too high or too low, you'll get a hint.
