@@ -1,7 +1,7 @@
 # Question class
 class Question:
     """
-    The base of th equestion model
+    The base of the equestion model
     """
     def __init__(self, text: str, answer: bool) -> None:
         self.text = text
