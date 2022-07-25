@@ -50,4 +50,4 @@ The user is asked about the name of the pokemon and after entering it the progra
 It is a quiz game, where the user has to answer some True/False questions.
 Based on the answer a total score is calculated where for each question the user
 is rewarded with one point. 
-The questions / data is read from JSON files (they can be generated using the API https://opentdb.com/)
+The questions / data is read from JSON files (they can be generated using the API https://opentdb.com/).

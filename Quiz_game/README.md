@@ -10,7 +10,7 @@ The program main, has a function that can easily covert any JSON file to require
 Question class, which is later used as data for our quiz. 
 This program was written based on an OOP principles with the main classes
 being Question (question_model.py - model), and QuizBrain (quiz_brain.py - the
-main quiz functionality)
+main quiz functionality).
 
 To run the program, simply execute main.py.
 
