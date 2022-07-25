@@ -21,7 +21,6 @@ reset the probabilities.
 A Caesar cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, A would be replaced by D, E would become H, and so on. The method is named after Julius Caesar, who used it in his private correspondence. The program encrypts and decrypts the given text according to the Caesar Cipher. 
 
 # Coffee_machine_simulation
-
 It's a simple digital version of a coffee machine (based on OOP principles), simulating the option of buying one of three available coffees: espresso, latte, or cappuccino. It keeps track of the coffee machine's resources and gives a prompt accordingly if it is lacking any of them. The user can check the remaining resources with the command 'report' and shuts the machine down for maintenance with the command 'off'. The machine also keeps track of the money made from the coffee sold (accepted coins: penny (1 cent), nickel (5 cents), dime (10 cents), quarter (25 cents)). It calculates the inserted coins and gives back change if there is any.
 
 # Guess_The_Number
@@ -37,7 +36,6 @@ a "Hangman" ASCI art will be progressive, drawn out. In order to win, the player
 has to guess all the letters before the hangman is drawn. 
 
 # Higher_Lower_game
-
 The program compares one search term against another search term. 
 It retrieves data from a JSON file with usernames from Instagram and its followers. 
 The user is given a choice between two randomly selected Instagram names, to decide who has more followers.
@@ -48,5 +46,8 @@ and will be prompted the amount of points collected so far. Each decision is wor
 It is a program which uses the API https://pokeapi.co/ to look through the database of the pokemons. 
 The user is asked about the name of the pokemon and after entering it the program will show some detailed information about his choice. 
 
-
-
+# Quiz_game
+It is a quiz game, where the user has to answer some True/False questions.
+Based on the answer a total score is calculated where for each question the user
+is rewarded with one point. 
+The questions / data is read from JSON files (they can be generated using the API https://opentdb.com/)
