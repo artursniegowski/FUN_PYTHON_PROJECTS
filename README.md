@@ -42,6 +42,10 @@ The user is given a choice between two randomly selected Instagram names, to dec
 For a correct guess the score will be adjusted by 1, otherwise the user will lose 
 and will be prompted the amount of points collected so far. Each decision is worth 1 point.
   
+# Hirst_painting
+It is a project where we try to recreate some art of the famous Damien Hirst random spot paintings. First, using python library colorgram for defining color palette from a painting (color_palette.jpg). 
+Next, we use the library Turtel and the extracted colors to draw a random spot painting. 
+
 # Pokemon_Search_API
 It is a program which uses the API https://pokeapi.co/ to look through the database of the pokemons. 
 The user is asked about the name of the pokemon and after entering it the program will show some detailed information about his choice. 
