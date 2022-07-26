@@ -7,5 +7,10 @@ Next the race starts and the turtles race each other, with random speeds. The tu
 To run the program, execute main.py.
 
 
+Example view: 
+
+![Screenshot](example_view.JPG)
+
+
 
 
