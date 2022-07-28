@@ -10,4 +10,4 @@ https://en.wikipedia.org/wiki/Pong
 
 Example view: 
 
-![Screenshot](example_view.JPG)
+![Screenshot](example_view.jpg)
