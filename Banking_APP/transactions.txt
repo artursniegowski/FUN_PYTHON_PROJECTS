@@ -1,0 +1,16 @@
+
+Transaction nr.1 on : 08/07/2022  17:37:30
+Client: Mark Sim 
+Transaction = deposited: $40500.00 , Balance Total: $40500.00 
+
+Transaction nr.2 on : 08/07/2022  17:37:39
+Client: Mark Sim 
+Transaction = deposited: $500.00 , Balance Total: $41000.00 
+
+Transaction nr.3 on : 08/07/2022  17:37:47
+Client: Mark Sim 
+Transaction = withdrew: $999.99 , Balance Total: $40000.01 
+
+Transaction nr.4 on : 08/07/2022  17:37:58
+Client: Mark Sim 
+Transaction = deposited: $5000000.00 , Balance Total: $5040000.01 
