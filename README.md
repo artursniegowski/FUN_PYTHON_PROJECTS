@@ -50,6 +50,9 @@ Next, we use the library Turtel and the extracted colors to draw a random spot p
 It is a program which uses the API https://pokeapi.co/ to look through the database of the pokemons. 
 The user is asked about the name of the pokemon and after entering it the program will show some detailed information about his choice. 
 
+# Pong_arcade_game
+The Pong game it is a classic arcade game and probably one of the first one. It has a really simple premise. It's basically just a ball that is going across a table and two players each control a paddle bouncing the ball back and forth. If you miss the ball, then the other player scores a point. The right player controls the right paddle with the arrow keyboards: 'UP' and 'DOWN', and the left player controls left paddle with the keyboard 'W' and 'S'. In order to increase the difficulty of the game, each time the ball bounces from one of the paddles, it will increase its speed. 
+
 # Quiz_game
 It is a quiz game, where the user has to answer some True/False questions.
 Based on the answer a total score is calculated where for each question the user
