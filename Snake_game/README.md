@@ -8,6 +8,8 @@ The game was developed using the library Turtle and python 3.10.05. According to
 
 In order to run the game, you have to execute the main.py.
 
+https://en.wikipedia.org/wiki/Snake_(video_game_genre)
+
 Example view: 
 
 ![Screenshot](example_view.JPG)

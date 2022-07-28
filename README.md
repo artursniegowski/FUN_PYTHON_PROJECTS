@@ -56,6 +56,10 @@ Based on the answer a total score is calculated where for each question the user
 is rewarded with one point. 
 The questions / data is read from JSON files (they can be generated using the API https://opentdb.com/).
 
+# Snake_game
+Snake game has, a moving snake, which you control using your arrow keyboards (UP, RIGHT, DOWN, LEFT). The aim is to collect food objects that appear randomly on the screen. It will grow in length as it eats more food. You have to make sure that you don't end up getting tangled or hitting the wall, which would result in Game Over. 
+The goal is to eat as much food as you can while staying alive.
+You'll be able to see your score on the scoreboard located on the top of your scree.
 
 # Turtle_racing_game
 This program utilizes the python library Turtle, in order to draw turtles on the display.
