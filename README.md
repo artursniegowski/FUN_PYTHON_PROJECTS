@@ -64,6 +64,11 @@ Snake game has, a moving snake, which you control using your arrow keyboards (UP
 The goal is to eat as much food as you can while staying alive.
 You'll be able to see your score on the scoreboard located on the top of your scree.
 
+# Turtle_crossing_game
+In the Turtle crossing game, we have a bunch of cars spawning randomly on the right side of the screen and going across a super busy multilane highway. The player controls the turtle on the bottom side of the road with arrow keyboard 'Up', which can only go forwards. The aim is to cross the road without being hit by the cars driving on it.
+Once the player reaches the other side of the screen, the cars speed up (next level), but the player goes back to the starting position, ready to cross the screen again. 
+At any point when a car hits the player turtle, the game ends with a Game Over.
+
 # Turtle_racing_game
 This program utilizes the python library Turtle, in order to draw turtles on the display.
 At the beginning, the user is supposed to place a bet, which turtle is going to win. 
