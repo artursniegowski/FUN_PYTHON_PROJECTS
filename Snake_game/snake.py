@@ -56,6 +56,15 @@ class Snake:
         """
         self.create_segment(self.snake_segements,self.snake_segements[-1].position())
 
+    def reset_snake(self) -> None:
+        """
+        Reseting the snake to its initial position
+        """
+        self.head.reset()
+        for segment in self.snake_segements:
+            segment.reset()
+
+        self.__init__()
 
     def move(self) -> None :
         """

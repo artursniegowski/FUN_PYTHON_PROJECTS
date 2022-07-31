@@ -5,6 +5,7 @@ from snake import Snake
 from turtle import Screen
 import time
 
+FILE_NAME = "data.json"
 
 # creating screen view
 screen = Screen()
@@ -20,7 +21,7 @@ new_snake = Snake()
 # creating food class
 new_food = Food(ScreenSettings)
 # creating Scoreboard object
-new_scoreboard = ScoreBoard(ScreenSettings)
+new_scoreboard = ScoreBoard(ScreenSettings,FILE_NAME)
 
 # creating the screen listener - watching for any events:
 screen.listen()
@@ -52,18 +53,18 @@ while game_is_on:
         new_snake.head.xcor() <  (5 - ScreenSettings.SCREEN_WIDTH/2) or \
             (ScreenSettings.SCREEN_HEIGHT/2 - 5) < new_snake.head.ycor() or \
                 new_snake.head.ycor() <  (15 - ScreenSettings.SCREEN_HEIGHT/2):
-        # Game OVER
-        new_scoreboard.game_over()
-        game_is_on = False
+        #reseting the score board
+        new_scoreboard.reset_score()
+        new_snake.reset_snake()
+
 
     # detect colision with tail
     # baypassing the checking of the head
     for segment in new_snake.snake_segements[1:]:
         if new_snake.head.distance(segment) < 10:
-            # Game OVER
-            # if head collides with any segment in the tail:
-            new_scoreboard.game_over()
-            game_is_on = False
+            #reseting the score board
+            new_scoreboard.reset_score()
+            new_snake.reset_snake()
     
 
 # wait for the scree to disapear fro a click
