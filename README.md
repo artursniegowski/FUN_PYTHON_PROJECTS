@@ -76,3 +76,6 @@ At any point when a car hits the player turtle, the game ends with a Game Over.
 This program utilizes the python library Turtle, in order to draw turtles on the display.
 At the beginning, the user is supposed to place a bet, which turtle is going to win. 
 Next the race starts and the turtles race each other, with random speeds. The turtle that reaches first the edge of the right screen is the winner, and determines whether the bet was lost or won.  
+
+# US_States_map_quiz
+This game tests you on your knowledge of the names of the 50 states in the USA. Every time we guess the correct state name, it will appear on the map at the location of the state. The aim of the game is to remember all the names of the states and to name as many as you can. This is an interactive and educational game. At any time, the user can write in the box "Exit" instead of a state name, and the game will terminate, and output all the missed states to a new file 'states_to_learn.csv'.
