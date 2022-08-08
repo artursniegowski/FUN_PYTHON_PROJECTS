@@ -56,6 +56,13 @@ A fully-fledge Python graphical user interface program.
 # NATO_phonetic_alphabet_converter
 This program converts the given word to the NATO phonetic alphabet. The NATO phonetic alphabet is read from a file 'nato_phonetic_alphabet.csv' using Pandas library. The user has to type down a word in the console, and it returns a list of phonetic alphabet that matches each of the letters in the given word. 
 
+# Password_manager
+This program is used to store and generate passwords. It requires filling few fields, like:
+Website - this is used only as description for future identification. So it is easier to deduct what this password is for.
+Email/Username - which is prepopulated but can be change to any username / email address.
+Password - here we fill in the password we want to store, or we can choose to autogenerate a password with the Generate Password button, which results also in copying the newly generated password into our clipboard and be ready to use it right away. 
+After completing the form, we can add the password to our list of passwords, which will be saved in a data.txt file. Hitting the Add button will result in another pop up window asking for confirmation of adding a new password to the list. 
+
 # Pokemon_Search_API
 It is a program which uses the API https://pokeapi.co/ to look through the database of the pokemons. 
 The user is asked about the name of the pokemon and after entering it the program will show some detailed information about his choice. 
