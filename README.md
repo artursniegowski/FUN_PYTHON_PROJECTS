@@ -23,6 +23,9 @@ A Caesar cipher, the shift cipher, Caesar's code or Caesar shift, is one of the 
 # Coffee_machine_simulation
 It's a simple digital version of a coffee machine (based on OOP principles), simulating the option of buying one of three available coffees: espresso, latte, or cappuccino. It keeps track of the coffee machine's resources and gives a prompt accordingly if it is lacking any of them. The user can check the remaining resources with the command 'report' and shuts the machine down for maintenance with the command 'off'. The machine also keeps track of the money made from the coffee sold (accepted coins: penny (1 cent), nickel (5 cents), dime (10 cents), quarter (25 cents)). It calculates the inserted coins and gives back change if there is any.
 
+# Flash_card_program
+The flash card program is used to help you study foreign languages. You can learn the most frequently used words in any language. It will show the user the front and back of each flash card. So, for example, one side will show you the desired language to learn with a word from this language, and after three seconds, the program will flip the card and show the same word in English on the other side, and the user has to make a choice whether the foreign word was known or not. If the user knew the meaning of the word, then the green check button should be pressed, and if the user was not familiar with it, the red cross button should be pressed. So whenever the user confirms that the word is known, the program will take out this word from the list of flash cards to learn and keep showing only the flashcards that were chosen as unknown (red cross button pressed, or the card is shown for the very first time).
+
 # Guess_The_Number
 Guess the secret number in the range 1-100 (including endpoints).
 If your guess is too high or too low, you'll get a hint.
