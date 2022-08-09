@@ -19,8 +19,8 @@ In order to run the program, you have to execute the main.py.
 
 Example view: 
 
-![Screenshot](example_view.jpg)
+![Screenshot](example_view_01.jpg)
 
-![Screenshot](example_view_2.jpg)
+![Screenshot](example_view_02.jpg)
 
-![Screenshot](example_view_3.jpg)
+![Screenshot](example_view_03.jpg)
