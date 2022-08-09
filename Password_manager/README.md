@@ -22,3 +22,5 @@ Example view:
 ![Screenshot](example_view.jpg)
 
 ![Screenshot](example_view_2.jpg)
+
+![Screenshot](example_view_3.jpg)
