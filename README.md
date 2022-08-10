@@ -38,6 +38,9 @@ letter by letter. Every time the guess is wrong,  the player loses a life and
 a "Hangman" ASCI art will be progressive, drawn out. In order to win, the player 
 has to guess all the letters before the hangman is drawn. 
 
+# Happy_Birthday_automatic_email_sender
+This is a python program that is an automated email birthday wish sender. It uses a spreadsheet with a list of birthdays, names, and emails, and based on the list, the program will check the current date. If that date matches someone's birthday from the file 'birthdays.csv' the program will extract the data and choose one of the random letters from the letter_templates directory and replace the name tag ([NAME]) with the matching name from birthdays.csv. At the end, the program will use a Gmail account to send a happy birthday email to this person.
+
 # Higher_Lower_game
 The program compares one search term against another search term. 
 It retrieves data from a JSON file with usernames from Instagram and its followers. 
