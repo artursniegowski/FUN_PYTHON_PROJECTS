@@ -6,7 +6,7 @@ The program uses the http://open-notify.org/Open-Notify-API/ISS-Location-Now/ AP
 
 The program uses the https://sunrise-sunset.org/api API to determine whether it is night or day time. 
 
-In the main.py we have to set our location (which can be checked here https://www.latlong.net/) and the receiver email with the variables:</br>  
+In the main.py we have to set our location (which can be checked here https://www.latlong.net/) and the receiver email with the variables:</br>
 MY_LAT = XX.XXX - Your latitude</br>
 MY_LONG = XX.XXX - Your longitude </br>
 EMAIL_RECIVER = "example@proton.me" - receiver email
