@@ -99,7 +99,7 @@ is rewarded with one point.
 The questions / data is read from JSON files (they can be generated using the API https://opentdb.com/).
 
 # Rain_alarm_app
-This is an API driven application that will monitor the weather in the given location, and it will send automatically an SMS text in the morning to the defined number if it's going to rain. 
+This is an API driven application that will monitor the weather in the given location, and if it's going to rain, it will send automatically an SMS text in the morning to the defined number. 
 
 # Snake_game
 Snake game has, a moving snake, which you control using your arrow keyboards (UP, RIGHT, DOWN, LEFT). The aim is to collect food objects that appear randomly on the screen. It will grow in length as it eats more food. You have to make sure that you don't end up getting tangled or hitting the wall, which would result in Game Over. 

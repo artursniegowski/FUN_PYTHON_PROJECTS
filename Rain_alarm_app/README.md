@@ -1,6 +1,6 @@
 # Rain_alarm_app
 
-This is an API driven application that will monitor the weather in the given location, and it will send automatically an SMS text in the morning to the defined number if it's going to rain. 
+This is an API driven application that will monitor the weather in the given location, and if it's going to rain, it will send automatically an SMS text in the morning to the defined number. 
 
 You can find your location using https://www.latlong.net/ .
 
