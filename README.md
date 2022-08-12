@@ -36,6 +36,15 @@ based on the level they choose to play.
 This is a quiz app using the data from the open trivia database API, https://opentdb.com/. 
 On the GUI, the user will find a true / false question and the aim is to guess whether it is right or false, with the two buttons on the bottom of the application. For true, the user should press the green check button and for false the red cross button.   
 
+# Habit_tracker
+This program uses an API called https://pixe.la/ (https://docs.pixe.la/)
+and tracks the habits and intensity of a given activity. It shows how to use the API and its basic HTTP requests, like: <br>
+GET - requests.get() - retrieving data </br>
+POST - requests.post() - create data </br>
+PUT - requests.put() - updating data </br>
+DELETE - requests.delete() - deleting data </br>
+Pixela is the API service. With this service, you can get a GitHub like graph that expresses the degree of your daily various activities on a basis with a vivid gradation. All operations are performed by API. And, it's free. https://github.com/a-know/Pixela.
+
 # Hangman
 Hangman is a guessing game where the player has to guess the whole word,
 letter by letter. Every time the guess is wrong,  the player loses a life and 
