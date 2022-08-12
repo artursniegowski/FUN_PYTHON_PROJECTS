@@ -106,6 +106,14 @@ Snake game has, a moving snake, which you control using your arrow keyboards (UP
 The goal is to eat as much food as you can while staying alive.
 YYou'll be able to see your score on the scoreboard located on the top of your screen, as well as the high score that will be stored in a file and loaded at the beginning of each game.
 
+# Stock_news_monitoring_project
+This program monitors the prices of a given stock and notifies the user via email if there is a good chance for investing, like big fluctuation in price. The threshold of fluctuation can be adjusted. By default, it is set to 5%. 
+1. First, the program pulls out the data of the stock price that we are interested in. For the two previous days, the closing prices of the given company will be compared. Whether it went up or down and by how much. 
+Here we will use the API: https://www.alphavantage.co/ </br>
+2. Next, the program will fetch three news data regarding this company, which should make it easier to understand the reason for the fluctuation. 
+Here we will use the API: https://newsapi.org/ </br>
+3. At the end, the data is put together, and the program will send the user an email about the new finding. (this can be easily adjusted to send an SMS text instead with the help of https://www.twilio.com/) </br>
+
 # Turtle_crossing_game
 In the Turtle crossing game, we have a bunch of cars spawning randomly on the right side of the screen and going across a super busy multilane highway. The player controls the turtle on the bottom side of the road with arrow keyboard 'Up', which can only go forwards. The aim is to cross the road without being hit by the cars driving on it.
 Once the player reaches the other side of the screen, the cars speed up (next level), but the player goes back to the starting position, ready to cross the screen again. 
