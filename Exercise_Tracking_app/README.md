@@ -3,12 +3,12 @@
 This app tracks the exercises that we are doing, and how long we are doing them for, and also figures out how many calories did we burn because of the workout that we did. The data is stored online to a Google spreadsheet where it can be easily accessed and viewed. </br>
 1. First, the user is asked about the exercises that will be logged in an Excel spreadsheet. This is done with an English sentence.</br>
 Example input: running 10km and cycling 55min</br>
-![Screenshot](example_view_02.jpg)</br>
+![Screenshot](example_view_2.jpg)</br>
 2. Next the program will use the API https://www.nutritionix.com/business/api which uses natural processing to decode our sentence and
 get the information it requires. </br>
 3. In the last step, the program will use the API https://sheety.co/ and create a new row and update the desired Google spreadsheet.</br>
 Example view after updating the row: </br>
-![Screenshot](example_view_03.jpg)
+![Screenshot](example_view_3.jpg)
 
 
 The user will end up with a Google spreadsheet that is easy to view online. This way, the user can keep track of the exercises. </br>
@@ -20,7 +20,7 @@ In order for the program to work, we need to prepare:</br>
 First:</br>
 create a Google Excel spreadsheet that looks exactly like this:</br>
 
-![Screenshot](example_view_01.jpg)
+![Screenshot](example_view_1.jpg)
 </br>
 
 
