@@ -23,6 +23,15 @@ A Caesar cipher, the shift cipher, Caesar's code or Caesar shift, is one of the 
 # Coffee_machine_simulation
 It's a simple digital version of a coffee machine (based on OOP principles), simulating the option of buying one of three available coffees: espresso, latte, or cappuccino. It keeps track of the coffee machine's resources and gives a prompt accordingly if it is lacking any of them. The user can check the remaining resources with the command 'report' and shuts the machine down for maintenance with the command 'off'. The machine also keeps track of the money made from the coffee sold (accepted coins: penny (1 cent), nickel (5 cents), dime (10 cents), quarter (25 cents)). It calculates the inserted coins and gives back change if there is any.
 
+# Exercise_Tracking_app
+This app tracks the exercises that we are doing, and how long we are doing them for, and also figures out how many calories did we burn because of the workout that we did. The data is stored online to a Google spreadsheet where it can be easily accessed and viewed. </br>
+1. First, the user is asked about the exercises that will be logged in an Excel spreadsheet. This is done with an English sentence.</br>
+Example input: running 10km and cycling 55min</br>
+2. Next the program will use the API https://www.nutritionix.com/business/api which uses natural processing to decode our sentence and
+get the information it requires. </br>
+3. In the last step, the program will use the API https://sheety.co/ and create a new row and update the desired Google spreadsheet.</br>
+The user will end up with a Google spreadsheet that is easy to view online. This way, the user can keep track of the exercises.
+
 # Flash_card_program
 The flash card program is used to help you study foreign languages. You can learn the most frequently used words in any language. It will show the user the front and back of each flash card. So, for example, one side will show you the desired language to learn with a word from this language, and after three seconds, the program will flip the card and show the same word in English on the other side, and the user has to make a choice whether the foreign word was known or not. If the user knew the meaning of the word, then the green check button should be pressed, and if the user was not familiar with it, the red cross button should be pressed. So whenever the user confirms that the word is known, the program will take out this word from the list of flash cards to learn and keep showing only the flashcards that were chosen as unknown (red cross button pressed, or the card is shown for the very first time).
 
