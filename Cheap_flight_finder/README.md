@@ -22,10 +22,10 @@ You can run this program in a cloud service like https://replit.com/ and give ac
 to add their emails to the list.
 
 For this standalone program, you will have to register and obtain your own data
-from the API https://sheety.co/ and define the environmental variables:
-API_SHEETY_END_POINT_USERS = "YOUR_OWN_SHEETY_END_POINT"
-API_SHEETY_BASIC_PASSWORD = "Bearer YOUR_OWN_PASSWORD"
-AS well as link your spreadsheet to your project and create an endpoint. Look point 5.
+from the API https://sheety.co/ and define the environmental variables:</br>
+API_SHEETY_END_POINT_USERS = "YOUR_OWN_SHEETY_END_POINT"</br>
+API_SHEETY_BASIC_PASSWORD = "Bearer YOUR_OWN_PASSWORD"</br>
+AS well as link your spreadsheet to your project and create an endpoint. Look point 5.</br>
 
 
 2. </br>
@@ -62,7 +62,7 @@ API_SHEETY_END_POINT_USERS = "YOUR_OWN_SHEETY_END_POINT_FOR_USERS"</br>
 
 
 7. </br>
-The user has to adjust the starting variables in the main.py:
+The user has to adjust the starting variables in the main.py:</br>
 ORIGIN_CITY_IATA = "WAW" # city of departure </br>
 
 8. </br>
@@ -72,7 +72,8 @@ which should result in a view like below:</br>
 </br>
 
 
-
+</br>
+</br>
 Example of received emails:
 
 ![Screenshot](example_view_2.jpg)
