@@ -4,7 +4,7 @@ This is a porgram that uses pythons BeautifulSoup library for scraping data from
 The data is scraped from - Empires 100 greates movies of all time. Relevant information is pulled out, like the title and the ranking of each movie. The next step is saving the data into a file 'movies.txt' as a list of movies that can be watched later.
 
 
-The scraped data from the top 100 movies of all time from the website https://web.archive.org/web/20200518073855/https://www.empireonline.com/movies/features/best-movies-2/ is stored in a file called `movies.txt`. This file lists the movies titles in ascending order (starting from 1). 
+The scraped data from the top 100 movies of all time from the website https://web.archive.org/web/20200518073855/https://www.empireonline.com/movies/features/best-movies-2/ is stored in a file called `movies.txt`. This file lists the movie titles in ascending order (starting from 1). 
 
 
 'movies.txt' file looks something like this:
