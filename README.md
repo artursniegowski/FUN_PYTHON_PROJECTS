@@ -93,6 +93,10 @@ The program takes a template.txt, which contains a default message and names.jso
 This is a unit converter program using Tkinter. This program has a graphical interface and is used to convert miles to kilometers or can be easily adjusted to convert liters to gallons (or whatever little conversion that you might often use).
 A fully-fledge Python graphical user interface program.
 
+# Movie_website_scraper
+This is a porgram that uses pythons BeautifulSoup library for scraping data from a movie website. 
+The data is scraped from - Empires 100 greates movies of all time. Relevant information is pulled out, like the title and the ranking of each movie. The next step is saving the data into a file 'movies.txt' as a list of movies that can be watched later.
+
 # NATO_phonetic_alphabet_converter
 This program converts the given word to the NATO phonetic alphabet. The NATO phonetic alphabet is read from a file 'nato_phonetic_alphabet.csv' using Pandas library. The user has to type down a word in the console, and it returns a list of phonetic alphabet that matches each of the letters in the given word. 
 
