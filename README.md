@@ -135,7 +135,7 @@ The goal is to eat as much food as you can while staying alive.
 YYou'll be able to see your score on the scoreboard located on the top of your screen, as well as the high score that will be stored in a file and loaded at the beginning of each game.
 
 # Spotify_playlist_generator
-This program validates the given date by the user with regular expression operations and later uses Python's BeautifulSoup library for scraping data from a music website ( https://www.billboard.com/charts/hot-100/ ) for that date, in order to find a list of top 100 songs. Based on the scraped data, it will automatically create a Spotify playlist using the spotipy library (Spotify API).
+This program validates the given date by the user with regular expression operations and later uses Python's BeautifulSoup library for scraping data from a music website ( https://www.billboard.com/charts/hot-100/ ) for that date, in order to find a list of top 100 songs. Based on the scraped data, it will automatically create a Spotify playlist using the spotipy library (Spotify API) https://spotipy.readthedocs.io/en/master/.
 
 # Stock_news_monitoring_project
 This program monitors the prices of a given stock and notifies the user via email if there is a good chance for investing, like big fluctuation in price. The threshold of fluctuation can be adjusted. By default, it is set to 5%. 

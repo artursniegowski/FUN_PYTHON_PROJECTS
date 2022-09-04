@@ -1,6 +1,6 @@
 # Spotify_playlist_generator
 
-This program validates the given date by the user with regular expression operations and later uses Python's BeautifulSoup library for scraping data from a music website ( https://www.billboard.com/charts/hot-100/ ) for that date, in order to find a list of top 100 songs. Based on the scraped data, it will automatically create a Spotify playlist using the spotipy library (Spotify API).
+This program validates the given date by the user with regular expression operations and later uses Python's BeautifulSoup library for scraping data from a music website ( https://www.billboard.com/charts/hot-100/ ) for that date, in order to find a list of top 100 songs. Based on the scraped data, it will automatically create a Spotify playlist using the spotipy library (Spotify API) https://spotipy.readthedocs.io/en/master/.
 
 ---
 
@@ -10,7 +10,7 @@ The program will be executed in the following steps:</br>
 </br>
 2. The date from step 1 will be used to scrape the data from the website https://www.billboard.com/charts/hot-100/  .</br>
 3. The song titles will be retrieved from step 2 and converted into a list.</br>
-4. A Spotify token will be created to authenticate your Python project with Spotify (user authorization with OAuth).</br>
+4. A Spotify token will be created to authenticate your Python project with Spotify (user authorization with OAuth) https://spotipy.readthedocs.io/en/master/.</br>
 5. The authorized user will use the app to retrieve URIs from sportify for each of the song titles from step 3.</br>
 6. A Spotify playlist will be created and populated with the songs from step 5.</br>
 
