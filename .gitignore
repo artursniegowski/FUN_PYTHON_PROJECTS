@@ -47,3 +47,7 @@ ENV/
 
 #passwords
 passwords.txt
+
+# spotipy lib 
+token.txt
+.cache
