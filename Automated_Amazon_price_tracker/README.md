@@ -7,16 +7,13 @@ This program will works like a bot, that in first step scrapes the data from a g
 
 Necessary steps to make the program work:</br>
 
-1. </br>
-Create a Gmail account that the program can use and generate an app_pssword for the account (https://help.prowly.com/how-to-create-use-gmail-app-passwords).
+1. Create a Gmail account that the program can use and generate an app_pssword for the account (https://help.prowly.com/how-to-create-use-gmail-app-passwords).</br>
 
-2. </br>
-After creating the Gmail account, we have to change the name of .env.example to .env and define the environmental variables according to our account:</br>
+2. After creating the Gmail account, we have to change the name of .env.example to .env and define the environmental variables according to our account:</br>
 MY_EMAIL = "EXAMPLE.USER@gmail.com"</br>
 GMAIL_APP_PASSWORD = "GMAIL_APP_PASSWORD"</br>
 
-3. </br>
-The user has to adjust the starting variables in the main.py:</br>
+3. The user has to adjust the starting variables in the main.py:</br>
 *TARGET_PRICE* = 800.00 - target price needs to be adjusted, example 800.00 </br>
 *AMAZON_PRODUCT_TO_TRACK_URL* = "https://www.amazon.com/OnePlus-Smartphone-Unlocked-co-Developed-Hasselblad/dp/B07XM54RWB"  - the Amazon url of the product we want to track, example onplus 10 url </br>
 *EMAIL_RECIVER* = "example@proton.me  - the email where the program will send the notification. </br> 
