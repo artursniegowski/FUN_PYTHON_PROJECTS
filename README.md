@@ -1,5 +1,7 @@
 ## Small Fun Python Projects
 
+# Automated_Amazon_price_tracker
+This program will works like a bot, that in first step scrapes the data from a given Amazon website product, and looks for the price and title of this product. In the next step this program can be set to check the price once per a day, with the use of https://www.pythonanywhere.com/ , and if the price drops below the target value set by the user, it will send an email notification, to make sure we don't miss this bargain!.
 
 # Banking_APP
 The program will track the balance of the given account based on the user choices,
