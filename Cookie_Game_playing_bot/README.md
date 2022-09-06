@@ -27,7 +27,7 @@ Ending score will be displayed in the console as cookies per second:</br>
 ---
 
 
-**The program was developed using python 3.10.6, selenium**
+**The program was developed using python 3.10.6, selenium.**
 
 
 In order to run the program, you have to execute main.py.
