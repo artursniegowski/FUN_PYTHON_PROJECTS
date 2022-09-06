@@ -31,6 +31,10 @@ and in the first step, the IATA codes will be autocompleted. After all fields ar
 # Coffee_machine_simulation
 It's a simple digital version of a coffee machine (based on OOP principles), simulating the option of buying one of three available coffees: espresso, latte, or cappuccino. It keeps track of the coffee machine's resources and gives a prompt accordingly if it is lacking any of them. The user can check the remaining resources with the command 'report' and shuts the machine down for maintenance with the command 'off'. The machine also keeps track of the money made from the coffee sold (accepted coins: penny (1 cent), nickel (5 cents), dime (10 cents), quarter (25 cents)). It calculates the inserted coins and gives back change if there is any.
 
+# Cookie_Game_playing_bot
+This is a gaming bot created with selenium to play the game Cookie Clicker, http://orteil.dashnet.org/experiments/cookie/.
+It will click the cookie and decide which upgrades / add-ons to buy (if we have money) in order to maximize the rate of clicked cookies and to get a higher score. The game bot will try to maximize the cookies per second rate because the more add-ons you buy the higher the rate gets.
+
 # Exercise_Tracking_app
 This app tracks the exercises that we are doing, and how long we are doing them for, and also figures out how many calories did we burn because of the workout that we did. The data is stored online to a Google spreadsheet where it can be easily accessed and viewed. </br>
 1. First, the user is asked about the exercises that will be logged in an Excel spreadsheet. This is done with an English sentence.</br>
