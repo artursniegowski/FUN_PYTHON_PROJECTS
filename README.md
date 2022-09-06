@@ -3,6 +3,19 @@
 # Automated_Amazon_price_tracker
 This program will works like a bot, that in first step scrapes the data from a given Amazon website product, and looks for the price and title of this product. In the next step this program can be set to check the price once per a day, with the use of https://www.pythonanywhere.com/ , and if the price drops below the target value set by the user, it will send an email notification, to make sure we don't miss this bargain!.
 
+# Automating_job_applications_on_linkedin
+This is an automated job application bot. The program will use selenium WebDriver 
+to automate applying for jobs on LinkedIn with the "Easy Apply" function to send applications to all the jobs that meet your criteria (instead of just a single listing).
+In the first step, it will log in to your LinkedIn account, and then go to the specific search job URL defined in the program by the user. 
+After accessing this URL, the bot will go through each of the application and asses if there is a function of Easy Apply.
+If it doesn't exist, the job application will be skipped, and the bot will move to the next job application.
+After finding the Easy Apply button, the bot will submit the first step of application by pressing it.
+In the next step, the bot will validate how the application form looks. 
+If the application form will have the button next which indicates a multistep application, the bot will terminate the application,
+only application with "submit application" will be accepted. 
+The bot will submit the application, and fill in the given phone number and send out the application.
+After that, the bot will move to the next job application. 
+
 # Banking_APP
 The program will track the balance of the given account based on the user choices,
 and all the transactions will be logged into a txt file. It's a program to simulate basic banking transactions like depositing or withdrawing money.
