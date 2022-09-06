@@ -33,14 +33,17 @@ MY_LINKEDIN_PASSWORD = "Your_password"</br>
 ---
 
 **Example of view Easy Apply application:**</br>
+
 ![Screenshot](docs/img/01_easy_apply.png)</br>
 
 
 **Example of view of submitting application:**</br>
+
 ![Screenshot](docs/img/02_submiting_applicatio.png)</br>
 
 
 **Example of view of invalid form with a next button - multistep application is not supported:**</br>
+
 ![Screenshot](docs/img/03_inalid_form_next.png)</br>
 
 ---
