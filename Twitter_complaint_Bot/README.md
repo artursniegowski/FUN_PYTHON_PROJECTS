@@ -29,7 +29,7 @@ Mark the DIR to the chromedriver.exe file and adjust the *chrome_driver_path* in
 
 ---
 
-**The program was developed using python 3.10.6, selenium**
+**The program was developed using python 3.10.6, selenium.**
 
 
 In order to run the program, you have to execute main.py.
