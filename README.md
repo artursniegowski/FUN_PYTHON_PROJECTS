@@ -99,6 +99,12 @@ and will be prompted the amount of points collected so far. Each decision is wor
 It is a project where we try to recreate some art of the famous Damien Hirst random spot paintings. First, using python library colorgram for defining color palette from a painting (color_palette.jpg). 
 Next, we use the library Turtel and the extracted colors to draw a random spot painting. 
 
+# Instagram_follower_bot
+It is a python selenium based bot that will boost your followers by following simple steps.
+First, it will automatically log in to your Instagram account. Secondly, it is going to go to the account you want to replicate followers for and check its followers. In the last step, the bot will follow these individual accounts one by one automatically.
+This way, the accounts you followed might notice your account and follow you back. 
+So basically, follow the followers of your competitors in your given market should boost your own follower count (given that your content is of similar nature).
+
 # ISS_tracker
 This program tracks the position of the International Space Station (https://en.wikipedia.org/wiki/International_Space_Station), and once the station is visible at our location, it will send an automatic email reminding us to look up and search for the station.
 
