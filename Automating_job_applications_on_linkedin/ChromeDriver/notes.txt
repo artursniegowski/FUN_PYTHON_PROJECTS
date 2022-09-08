@@ -1,0 +1,2 @@
+---------ChromeDriver 104.0.5112.79 (2022-08-03)---------
+Supports Chrome version 104
