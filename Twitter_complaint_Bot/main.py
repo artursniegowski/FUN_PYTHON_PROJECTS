@@ -14,7 +14,7 @@ PROMISSED_UPLOAD_SPEED = 50
 # dont forget that the verion of chrome drive has to match the verison of chrome browser
 # https://chromedriver.chromium.org/downloads
 # relative path, you can use as well absolute path !
-chrome_driver_path = "ChromeDriver/chromedriver.exe"
+chrome_driver_path = "ChromeDriver_browser/chromedriver.exe"
 #######################################################################
 
 

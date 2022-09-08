@@ -51,3 +51,6 @@ passwords.txt
 # spotipy lib 
 token.txt
 .cache
+
+# selenium - chrom driver
+ChromeDriver_browser/
