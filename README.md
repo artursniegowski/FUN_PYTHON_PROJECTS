@@ -185,3 +185,10 @@ This is a complaining Twitter bot that will first test your internet speed using
 
 # US_States_map_quiz
 This game tests you on your knowledge of the names of the 50 states in the USA. Every time we guess the correct state name, it will appear on the map at the location of the state. The aim of the game is to remember all the names of the states and to name as many as you can. This is an interactive and educational game. At any time, the user can write in the box "Exit" instead of a state name, and the game will terminate, and output all the missed states to a new file 'states_to_learn.csv'.
+
+# Zillow_rental_research_scraper
+This is a program that tackles a research data entry job where the aim is to
+find house prices that fit a particular client's criteria. The house prices will be scrapped.
+using python's library Beautifulsoup from the Zillow website https://www.zillow.com/.
+The address, price for rent, and link with the offer will be stored in a dictionary.
+The program will then use Python's Selenium library to transfer that data into a Google form https://docs.google.com/forms/ (Auto filling the forms). After the process is done, the user can download or view the data in a Google spreadsheet. BeautifulSoup + Selenium.
