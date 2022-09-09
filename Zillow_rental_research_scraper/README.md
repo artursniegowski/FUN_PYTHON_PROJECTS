@@ -1,7 +1,7 @@
 # Zillow_rental_research_scraper
 
 This is a program that tackles a research data entry job where the aim is to
-find house prices that fit a particular client's criteria. The house prices will be scrapped.
+find house prices that fit a particular client's criteria. The house prices will be scrapped
 using python's library Beautifulsoup from the Zillow website https://www.zillow.com/.
 The address, price for rent, and link with the offer will be stored in a dictionary.
 The program will then use Python's Selenium library to transfer that data into a Google form https://docs.google.com/forms/ (Auto filling the forms). After the process is done, the user can download or view the data in a Google spreadsheet. BeautifulSoup + Selenium.</br>
