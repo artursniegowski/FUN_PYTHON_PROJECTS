@@ -15,7 +15,7 @@ class FormHandlerBotSEttings:
     settings for the FormHandlerBot
     """
     # link to forms
-    URL_TO_MY_FORM = "https://docs.google.com/forms/d/e/1FAIpQLSd10CiVPtgtcLDpABUKjYCzGnre43mEhKZWJKGXxZxErYigRg/viewform?usp=sf_link"
+    URL_TO_MY_FORM = "https://docs.google.com/forms/YOUR_FORM"
 
 
 class FormHandlerBot:
