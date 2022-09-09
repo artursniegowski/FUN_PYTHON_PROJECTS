@@ -67,7 +67,7 @@ Under the tab Responses, there is a button to view the response in sheets..
 </br>
 
 **An example view of the spreadsheet after the process is done.**</br>
-![Screenshot](docs/img/06_google_spread_sheet_filled.png)</br>
+![Screenshot](docs/img/06_google_spread_sheet_filled_done.png)</br>
 
 
 ---
