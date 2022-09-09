@@ -72,7 +72,7 @@ Under the tab Responses, there is a button to view the response in sheets..
 
 ---
 
-**The program was developed using python 3.10.6, selenium, BeautifulSoup, requests**
+**The program was developed using python 3.10.6, selenium, BeautifulSoup, requests.**
 
 
 In order to run the program, you have to execute main.py.
