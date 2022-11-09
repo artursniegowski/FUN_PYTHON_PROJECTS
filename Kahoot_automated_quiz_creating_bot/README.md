@@ -8,7 +8,7 @@ a quiz. Some data for the quiz can be adjusted, like the title of the quiz, the 
 To use the program, the user must first create a free account at Kahoot! (https://kahoot.com/) and fill out the data in the file .env (MY_EMAIL = "YOUR_EMAIL_FOR_KAHOOT@proton.me", MY_EMAIL_PASSWORD = "YOUR_PASSWORD_FOR_KAHOOT")
 After you have created a quiz, you can share it with friends and have them play it. You can view the quiz results in your Kahoot account later. 
 
----
+--- 
 
 The necessary steps to make the program work:</br>
 1. Install the Chrome web browser https://www.google.com/intl/en_uk/chrome/ </br>
