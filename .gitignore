@@ -41,6 +41,7 @@ dwsync.xml
 
 # Virtual enviroment
 ENV/
+env/
 
 ### Django ###
 *.sqlite3
