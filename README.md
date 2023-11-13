@@ -134,6 +134,9 @@ The data is scraped from - Empires 100 greates movies of all time. Relevant info
 # NATO_phonetic_alphabet_converter
 This program converts the given word to the NATO phonetic alphabet. The NATO phonetic alphabet is read from a file 'nato_phonetic_alphabet.csv' using Pandas library. The user has to type down a word in the console, and it returns a list of phonetic alphabet that matches each of the letters in the given word. 
 
+# News_API
+News_API is a simple program that makes use of the free online News Api (https://newsapi.org/) and based on our search we will retrive the data and visualizatize it in an interactive matter with python Pygal package. It also includes simple python unittests for error checking. 
+
 # Password_manager
 This program is used to store and generate passwords. It requires filling few fields, like:
 Website - this is used only as description for future identification. So it is easier to deduct what this password is for.
@@ -179,6 +182,9 @@ Here we will use the API: https://www.alphavantage.co/ </br>
 Here we will use the API: https://newsapi.org/ </br>
 3. At the end, the data is put together, and the program will send the user an email about the new finding. (this can be easily adjusted to send an SMS text instead with the help of https://www.twilio.com/) </br>
 
+# Text_base_adventure_game
+This is a text-based-game developed with python and OOP principle.
+
 # Turtle_crossing_game
 In the Turtle crossing game, we have a bunch of cars spawning randomly on the right side of the screen and going across a super busy multilane highway. The player controls the turtle on the bottom side of the road with arrow keyboard 'Up', which can only go forwards. The aim is to cross the road without being hit by the cars driving on it.
 Once the player reaches the other side of the screen, the cars speed up (next level), but the player goes back to the starting position, ready to cross the screen again. 
@@ -194,6 +200,9 @@ This is a complaining Twitter bot that will first test your internet speed using
 
 # US_States_map_quiz
 This game tests you on your knowledge of the names of the 50 states in the USA. Every time we guess the correct state name, it will appear on the map at the location of the state. The aim of the game is to remember all the names of the states and to name as many as you can. This is an interactive and educational game. At any time, the user can write in the box "Exit" instead of a state name, and the game will terminate, and output all the missed states to a new file 'states_to_learn.csv'.
+
+# Wheel_Of_Fortune
+WheelOfFortune is a popular text game developed using python. Contestants compete to solve word puzzles, similar to those used in Hangman, to win cash and prizes. The wheel is automatically spun for the contestants throughout the course of the game to determine their cash and/or prizes. At the beginning of the game, the user is asked about how many human and computer players should play the game. The player can decide the difficulty level of the computer players. The aim is to guess the phrase or the next character correctly and win the rewards.
 
 # Zillow_rental_research_scraper
 This is a program that tackles a research data entry job where the aim is to

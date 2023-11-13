@@ -1,0 +1,9 @@
+[submodule "Wheel_Of_Fortune"]
+	path = Wheel_Of_Fortune
+	url = https://github.com/artursniegowski/Wheel_Of_Fortune
+[submodule "News_API"]
+	path = News_API
+	url = https://github.com/artursniegowski/News_API.git
+[submodule "Text_base_adventure_game"]
+	path = Text_base_adventure_game
+	url = https://github.com/artursniegowski/text_base_adventure_game.git
